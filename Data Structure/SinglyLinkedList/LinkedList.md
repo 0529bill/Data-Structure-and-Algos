@@ -37,4 +37,5 @@ Leetcode:
 
 Resources:
 
+https://www.techinterviewhandbook.org/algorithms/linked-list/
 https://stackoverflow.com/questions/393556/when-to-use-a-linked-list-over-an-array-array-list
