@@ -1,5 +1,11 @@
 ## Leetcode cheat sheet
 
+### string/array
+
+- edge cases: empty string/array, duplicate string/array
+
+- use two pointer (next one minus current one should be 1) for consecutive sequence problem
+
 ### linked list
 
 1. use two pointer
@@ -16,9 +22,17 @@
 
 ### Search
 
+- use binary search if the problem asked for O(logN) solution.
 - use binary search for sorted array.
 - use two pointers to implement binary search. ex, leetcode 704
 
 ## stack and queue
 
 - Valid Parentheses problem(20) => use stack to copy the first part of the array then pop it, if it's not the same as the second part, it's not a valid Parentheses
+
+## Binary Tree
+
+- edge case: empty tree, null node
+
+- BFS (use queue for iterative approach)
+- DFS (use stack for iterative approach)
