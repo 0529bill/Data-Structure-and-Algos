@@ -20,6 +20,18 @@
 
 ### substring
 
+- Longest Substring Without Repeating Characters => calculate substring using Set, if encounter same value, delete value in Set in the order of the characters.
+
+```js
+//cdvdf
+
+c set [c]
+d set [c,d]
+v set[c,d,v]
+d delete values inside set =>  set[c,d,v] =>  set[d,v] => set[v] add current character back => [v,d]
+f set[v,d,f]
+```
+
 ### Search
 
 - use binary search if the problem asked for O(logN) solution.
@@ -36,3 +48,5 @@
 
 - BFS (use queue for iterative approach)
 - DFS (use stack for iterative approach)
+
+- merged two binary trees => use DFS to traverse both trees, change trees in place.
